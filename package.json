@@ -1,0 +1,29 @@
+{
+  "name": "trabajo-api-lol",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html --public-url /LolWiever/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayKB/LolWiever.git"
+  },
+  "author": "JonayKB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonayKB/LolWiever/issues"
+  },
+  "homepage": "https://github.com/JonayKB/LolWiever#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "svgo": "^3.0.2"
+  },
+  "devDependencies": {
+    "srcset": "^5.0.1"
+  }
+}

@@ -1,0 +1,4 @@
+.cache/
+dist/
+buidl/
+node_modules/
