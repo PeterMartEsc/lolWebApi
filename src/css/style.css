@@ -137,3 +137,18 @@ body{
     background: linear-gradient(rgb(0, 255, 255), rgb(0, 140, 255));
 }
 
+@media screen and (max-width: 768px) {
+
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+
+    #wiki{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  /*1fr = 100px*/ /*Numero de columnas y su tamañano*/
+        gap: 12px;                         /*Separación entre columnas*/
+        width: 100%;
+    }
+}
+
